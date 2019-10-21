@@ -1,0 +1,13 @@
+steps:
+# Install dependencies
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+# Test app
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'test:unit']
+# Build app
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'build']
+# Deploy app to GCP
+- name: 'gcr.io/$PROJECT_ID/firebase'
+  args: ['deploy']
