@@ -13,7 +13,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a graduate student from Lviv Polytechnic National University.I love exploring new tools, technologies and meet new people on my way.</p>
+                    <p>I am a graduate student from Lviv Polytechnic National University (NU LP).I love exploring new tools, technologies and meet new people on my way.</p>
                     <p>I joined SoftServe family a few months ago, and begining of this journey was amazing. I have met a great new friends here, even became a Google Cloud Sertified engineer</p>
                     </div>
                 </div>
